@@ -1,0 +1,100 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout1">
+
+    <ImageView
+        android:src="@drawable/image"
+        android:layout_width="match_parent"
+        android:layout_height="250px"
+        android:id="@+id/imageView1" />
+
+    <TextView
+        android:text="Log in to see more"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+         android:id="@+id/textView2" />
+
+    <EditText
+        android:inputType="text"
+        android:gravity="center"
+        android:layout_marginTop="13dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email or Phone Number"
+        android:textColor="#000000"
+        android:id="@+id/editText1" />
+    <EditText
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:gravity="center"
+        android:layout_marginTop="9dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+         android:id="@+id/editText2"  />
+    <Button
+        android:text="Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:background="#c10909"
+        android:id="@+id/button1" />
+    <TextView
+        android:text=" OR "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        
+        android:id="@+id/textView3" />
+    <Button
+        android:text="Create account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3b5998"
+        android:paddingLeft="12dp"
+        android:id="@+id/button2" />
+    <Button
+        android:drawableLeft="@drawable/google"
+        android:text="Continue with Google"
+        android:layout_marginTop="9dp"
+        android:layout_width="match_parent"
+        android:background="#3b5998"
+        android:paddingLeft="10dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3" />
+    <TextView
+        android:text="Forgot your password? "
+        android:layout_marginTop="9dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/textView4" />
+
+    <TextView
+        android:text="Are you a business? Get started here!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/textView5" />
+
+    <TextView
+        android:text="Not on Pinterest yet? Sign Up"
+        android:layout_marginTop="9dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/textView6" />
+
+</LinearLayout>
+
